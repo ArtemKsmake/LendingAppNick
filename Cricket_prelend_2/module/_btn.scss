@@ -1,0 +1,94 @@
+@import "variable.scss";
+
+.btn{
+  padding: 0;
+  text-decoration: none;
+  letter-spacing: 3px;
+  display: inline-block;
+  background: #51d115;
+ background-image: linear-gradient(0deg, #025e00 0%, #05da00 43%);
+  box-shadow: 0px 0px 53.2778px #f13c0e, 0px 0px 53.2778px rgba(200, 112, 72, 0.143);
+  padding:26px 55px;
+  transition:all .5s;
+  transform: skewX(-15deg);
+
+  @media (max-width:1800px) {
+    padding:23px 55px*.95;
+  }
+  @media (max-width:1600px) {
+    padding:22px  55px*.9;
+  }
+  @media (max-width:1400px) {
+    padding:21px 55px*.8;
+  }
+  @media (max-width:1300px) {
+    padding:20px 55px*.7;
+  }
+  @media (max-width:1100px) {
+    padding:19px 55px*.6;
+  }
+  @media (max-width:1000px) {
+    padding:17px 55px*.45;
+  }
+  @media (max-width:775px) {
+    padding:21px 55px*.8;
+
+  }
+  @media (max-width:560px) {
+    padding:21px 55px*.55;
+  }
+  
+  &:hover{
+    filter: drop-shadow(2.828px 2.828px 2.5px rgba(8,17,36,0.51));
+
+   }
+  
+  &__text{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    color: $colorText;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    transform: skewX(15deg);
+
+    @media (max-width:1800px) {
+      font-size: $size3*.95;
+    }
+    
+    @media (max-width:1600px) {
+      font-size: $size3*.9;
+    }
+    @media (max-width:1400px) {
+      font-size:  $size3*.8;
+    }
+    @media (max-width:1300px) {
+      font-size:  $size3*.7;
+    }
+    @media (max-width:1100px) {
+      font-size:  $size3*.6;
+    }
+    @media (max-width:1000px) {
+      font-size:  $size3*.55;
+    }
+    @media (max-width:775px) {
+      font-size:  $size3*.8;
+    }
+    @media (max-width:560px) {
+      font-size:  $size3*.6;
+    }
+    @media (max-width:410px) {
+      font-size:  $size3*.4;
+    }
+    
+  }
+}
+
+
+
+
+
+
+
+

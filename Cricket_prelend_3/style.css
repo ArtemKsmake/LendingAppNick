@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
+  height: 100%;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+picture {
+  width: 100%;
+}
+
+.logo {
+  max-width: 88px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1800px) {
+  .logo {
+    max-width: 83.6px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .logo {
+    max-width: 79.2px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .logo {
+    max-width: 70.4px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .logo {
+    max-width: 61.6px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .logo {
+    max-width: 52.8px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    max-width: 74.8px;
+  }
+}
+
+@media (max-width: 775px) {
+  .logo {
+    max-width: 70.4px;
+  }
+}
+
+@media (max-width: 560px) {
+  .logo {
+    max-width: 66px;
+  }
+}
+
+@media (max-width: 410px) {
+  .logo {
+    max-width: 61.6px;
+  }
+}
+
+.btn {
+  padding: 0;
+  text-decoration: none;
+  letter-spacing: 3px;
+  display: inline-block;
+  background: #51d115;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#d31200), to(#f65f00));
+  background-image: linear-gradient(0deg, #d31200 0%, #f65f00 100%);
+  -webkit-box-shadow: 0px 0px 53.2778px #f13c0e, 0px 0px 53.2778px rgba(200, 112, 72, 0.143);
+          box-shadow: 0px 0px 53.2778px #f13c0e, 0px 0px 53.2778px rgba(200, 112, 72, 0.143);
+  padding: 26px 55px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: skewX(-15deg);
+          transform: skewX(-15deg);
+}
+
+@media (max-width: 1800px) {
+  .btn {
+    padding: 23px 52.25px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .btn {
+    padding: 22px 49.5px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .btn {
+    padding: 21px 44px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .btn {
+    padding: 20px 38.5px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .btn {
+    padding: 19px 33px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .btn {
+    padding: 17px 24.75px;
+  }
+}
+
+@media (max-width: 775px) {
+  .btn {
+    padding: 21px 44px;
+  }
+}
+
+@media (max-width: 560px) {
+  .btn {
+    padding: 21px 30.25px;
+  }
+}
+
+.btn:hover {
+  -webkit-filter: drop-shadow(2.828px 2.828px 2.5px rgba(8, 17, 36, 0.51));
+          filter: drop-shadow(2.828px 2.828px 2.5px rgba(8, 17, 36, 0.51));
+}
+
+.btn__text {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  -webkit-transform: skewX(15deg);
+          transform: skewX(15deg);
+}
+
+@media (max-width: 1800px) {
+  .btn__text {
+    font-size: 35.15px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .btn__text {
+    font-size: 33.3px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .btn__text {
+    font-size: 29.6px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .btn__text {
+    font-size: 25.9px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .btn__text {
+    font-size: 22.2px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .btn__text {
+    font-size: 16.65px;
+  }
+}
+
+@media (max-width: 775px) {
+  .btn__text {
+    font-size: 29.6px;
+  }
+}
+
+@media (max-width: 560px) {
+  .btn__text {
+    font-size: 22.2px;
+  }
+}
+
+@media (max-width: 410px) {
+  .btn__text {
+    font-size: 14.8px;
+  }
+}
+
+.wrap {
+  background-color: black;
+  background: url("./picture/Cricket_prelend_1920_3.jpg") no-repeat center center/100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 1100px) {
+  .wrap {
+    background: url("./picture/Cricket_prelend_1024_3.jpg") no-repeat center center;
+  }
+}
+
+@media (max-width: 700px) {
+  .wrap {
+    background: url("./picture/Cricket_prelend_320_3.jpg") no-repeat center center;
+    background-size: contain;
+  }
+}
+
+.logo-block {
+  margin: 0 auto;
+  padding: 0 0 2.7% 0;
+}
+
+@media (max-width: 800px) {
+  .logo-block {
+    padding: 5.5% 0 9.7% 0;
+  }
+}
+
+.title-block {
+  padding: 0 0  8% 0;
+  text-align: center;
+  font-size: 70px;
+  text-shadow: 0px 0px 25px white;
+}
+
+@media (max-width: 1800px) {
+  .title-block {
+    font-size: 66.5px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .title-block {
+    font-size: 63px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .title-block {
+    font-size: 56px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .title-block {
+    font-size: 49px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .title-block {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .title-block {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 800px) {
+  .title-block {
+    padding: 0 0  19% 0;
+  }
+}
+
+@media (max-width: 775px) {
+  .title-block {
+    font-size: 49px;
+  }
+}
+
+@media (max-width: 560px) {
+  .title-block {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 410px) {
+  .title-block {
+    font-size: 35px;
+  }
+}
+
+.title-block span {
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  letter-spacing: 4px;
+  color: #ff4e00;
+}
+
+.title-block span:first-child {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .title-block span:last-child {
+    display: block;
+  }
+}
+
+.btn-block {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+/*# sourceMappingURL=style.css.map */

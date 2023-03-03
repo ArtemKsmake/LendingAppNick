@@ -1,0 +1,115 @@
+@import "./module/reset";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "./module/variable";
+@import "./module/logo";
+@import "./module/btn";
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  background: 
+  url("./picture/BgFonLineDesk.png") no-repeat  top right/100% 100%,
+  url("./picture/BgFonPictureDesk.jpg") no-repeat  center center/100% ;
+  height: inherit;
+
+  @media (max-width:1100px) {
+    background: 
+    url("./picture/BgFonLineTablet.png") no-repeat  top right/100% 100%,
+    url("./picture/BgFonPicrureTablet.jpg") no-repeat  center center/100% ;
+  }
+
+
+  @media (max-width:700px) {
+    background: 
+    url("./picture/BgFonLineMobi.png") no-repeat  top right/100% 100%,
+    url("./picture/BgFonPictureMobi.jpg") no-repeat  center center/100% ;
+  }
+
+}
+
+.logo-block{
+  margin: 0 auto;
+  padding: 6.4% 0 2.7% 0;
+  
+  @media (max-width:800px) {
+    padding: 7.5% 0 9.7% 0;
+  }
+}
+.title-block{
+  padding: 0 0  8% 0;
+  text-align: center;
+  font-size:$size1 ;
+
+
+  @media (max-width:1800px) {
+    font-size: $size1*.95;
+  }
+  
+  @media (max-width:1600px) {
+    font-size: $size1*.9;
+  }
+  @media (max-width:1400px) {
+    font-size:  $size1*.8;
+  }
+  @media (max-width:1300px) {
+    font-size:  $size1*.7;
+  }
+  @media (max-width:1100px) {
+    font-size:  $size1*.6;
+  }
+  @media (max-width:1000px) {
+    font-size:  $size1*.45;
+  }
+  @media (max-width:800px) {
+    // padding: 0 0  19% 0;
+  }
+  @media (max-width:775px) {
+    font-size:  $size1*.8;
+  }
+  @media (max-width:560px) {
+    font-size:  $size1*.6;
+  }
+  @media (max-width:410px) {
+    font-size:  $size1*.4;
+  }
+
+  & span{
+    // display: inline-block;
+    // font-size:$size1 ;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    letter-spacing: 4px;
+    color: $colorText;
+
+    
+  }
+
+  & span:first-child{
+    display: block;
+  }
+
+
+  @media (max-width:800px) {
+    & span:last-child{
+      display: block;
+    }
+  }
+  
+}
+.btn-block{
+  text-align: center;
+  padding-bottom: 22%;
+
+  @media (max-width:1100px) {
+    padding-bottom: 12%;
+  }
+
+  @media (max-width:700px) {
+    padding-bottom: 25%;
+  }
+ 
+}
